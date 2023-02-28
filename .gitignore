@@ -1,0 +1,7 @@
+*.Proj
+.Rhistory
+**/.Rproj.user/*
+aboutPDFs.md
+PresentationSlides.Rproj
+**.Rproj
+**~

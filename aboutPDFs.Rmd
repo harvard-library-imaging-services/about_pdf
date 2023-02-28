@@ -81,3 +81,10 @@ Assuming a volume has text, and assuming Imaging Services has OCR software capab
 
 ## *Fin*
 
+[https://harvard-library-imaging-services.github.io/about_pdf/](https://harvard-library-imaging-services.github.io/about_pdf/)
+
+```{r goto, include=FALSE}
+
+browseURL("https://harvard-library-imaging-services.github.io/about_pdf/")
+```
+

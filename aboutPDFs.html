@@ -429,11 +429,10 @@ of color and tone values.</p>
 <h1>“Image only” PDFs, shortcomings</h1>
 <ul class="incremental">
 <li><p>These PDFs may have images of text, but the text cannot be
-searched. The PDF is just a sequence of images–grids of color and tone
+searched. The PDF is only a sequence of images–grids of color and tone
 values.</p></li>
-<li><p>These files are frequently too large to open and navigate easily.
-Images can be large, and a stack of images is large multiplied the
-number of page-images included.</p></li>
+<li><p>These files are frequently too large to open and navigate
+easily.</p></li>
 </ul>
 </div>
 <div id="searchable-image-based-pdfs" class="slide section level2">
@@ -443,8 +442,8 @@ imperfect index available for searching. The index is produced by OCR
 software that works to identify characters and words by analyzing the
 page-images.</p>
 </div>
-<div id="searchable-image-based-pdfs-shortcommings" class="slide section level2">
-<h1>Searchable, image-based PDFs, shortcommings</h1>
+<div id="searchable-image-based-pdfs-shortcomings" class="slide section level2">
+<h1>Searchable, image-based PDFs, shortcomings</h1>
 <ul class="incremental">
 <li><p>Like <em>image only</em> PDFs, these files are often too large
 for users to open and navigate easily.</p></li>
@@ -457,11 +456,11 @@ OCR accuracy, often dramatically.</p></li>
 <div id="hybrid-image-character-description-pdf" class="slide section level2">
 <h1>Hybrid (image &amp; character description) PDF</h1>
 <p>Image-based PDFs with OCR-generated text can be converted to a hybrid
-of <em>true, perfect</em> and <em>image based</em>. Software will look
-for OCR-generated text that the software has assigned a high confidence
-score, indicating it has likely identified the fonts and characters
-correctly, and it will throw away the page-image source and replace the
-image data with a described font and layout.</p>
+of <em>true, perfect</em> and <em>image based</em>. The software will
+look for OCR-generated text that the software has assigned a high
+confidence score, indicating it has likely identified the fonts and
+characters correctly, and it will throw away the page-image source and
+replace the image data with a described font and layout.</p>
 <p>A single hybrid page may include encoded text that replaces part of
 the image, and page-image fragments for zones where the OCR confidence
 scores are low.</p>

@@ -37,15 +37,15 @@ An *image only* PDF is just a sequence of raster images--grids of color and tone
 
 ## "Image only" PDFs, shortcomings
 
-* These PDFs may have images of text, but the text cannot be searched. The PDF is just a sequence of images--grids of color and tone values.
+* These PDFs may have images of text, but the text cannot be searched. The PDF is only a sequence of images--grids of color and tone values.
 
-* These files are frequently too large to open and navigate easily. Images can be large, and a stack of images is large multiplied the number of page-images included.
+* These files are frequently too large to open and navigate easily. 
 
 ## Searchable, image-based PDFs
 
 These PDFs are also a sequence of images, but there is, typically, an imperfect index available for searching. The index is produced by OCR software that works to identify characters and words by analyzing the page-images.
 
-## Searchable, image-based PDFs, shortcommings
+## Searchable, image-based PDFs, shortcomings
 
 * Like *image only* PDFs, these files are often too large for users to open and navigate easily.
 
@@ -54,7 +54,7 @@ These PDFs are also a sequence of images, but there is, typically, an imperfect 
 
 ## Hybrid (image & character description) PDF
 
-Image-based PDFs with OCR-generated text can be converted to a hybrid of *true, perfect* and *image based*. Software will look for OCR-generated text that the software has assigned a high confidence score, indicating it has likely identified the fonts and characters correctly, and it will throw away the page-image source and replace the image data with a described font and layout.
+Image-based PDFs with OCR-generated text can be converted to a hybrid of *true, perfect* and *image based*. The software will look for OCR-generated text that the software has assigned a high confidence score, indicating it has likely identified the fonts and characters correctly, and it will throw away the page-image source and replace the image data with a described font and layout.
 
 A single hybrid page may include encoded text that replaces part of the image, and page-image fragments for zones where the OCR confidence scores are low.
 
@@ -87,4 +87,3 @@ Assuming a volume has text, and assuming Imaging Services has OCR software capab
 
 browseURL("https://harvard-library-imaging-services.github.io/about_pdf/")
 ```
-

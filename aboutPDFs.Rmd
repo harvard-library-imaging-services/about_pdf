@@ -6,6 +6,7 @@ output:
   slidy_presentation: 
     incremental: yes
     keep_md: yes
+    css: styles.css
   ioslides_presentation: 
     incremental: yes
     keep_md: yes
@@ -24,7 +25,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## True, perfect PDFs
 
-Given a choice, this is the PDF you want.
+Given a choice, this is the PDF you want.<br /><br />
 
 The text is encoded descriptively: This font, at this size, should be rendered in this specific location on the page, or *canvas*. The font is described as a shape and can be scaled to any size output without degradation.
 

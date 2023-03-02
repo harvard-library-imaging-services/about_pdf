@@ -1,7 +1,7 @@
 ---
 title: "About PDFs"
 author: "bill comstock"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: "02 March, 2023"
 output:
   slidy_presentation: 
     incremental: yes
@@ -12,9 +12,7 @@ output:
     keep_md: yes
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+
 
 ## Four flavors of PDF
 
@@ -88,10 +86,4 @@ Assuming a volume has text, and assuming Imaging Services has OCR software capab
 * [Presentaton source file](aboutPDFs.Rmd)
 
 
-```{r goto, include=FALSE}
 
-browseURL("https://harvard-library-imaging-services.github.io/about_pdf/")
-
-file.copy(from = "aboutPDFs.html", to = "index.html",overwrite = TRUE)
-
-```

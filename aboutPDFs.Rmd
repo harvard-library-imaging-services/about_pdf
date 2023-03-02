@@ -87,10 +87,15 @@ Assuming a volume has text, and assuming Imaging Services has OCR software capab
 * [Presentaton source file](aboutPDFs.Rmd)
 
 
-```{r goto, include=FALSE}
+```{r RUN_MANUALLY, include=FALSE, eval=FALSE}
 
-browseURL("https://harvard-library-imaging-services.github.io/about_pdf/")
+# browseURL("https://harvard-library-imaging-services.github.io/about_pdf/")
 
 file.copy(from = "aboutPDFs.html", to = "index.html",overwrite = TRUE)
+
+system("git status")
+system("git add --all")
+system("git commit -m \"updates\"")
+system("git push origin main")
 
 ```

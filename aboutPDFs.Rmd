@@ -5,7 +5,7 @@ output:
   slidy_presentation: 
     incremental: yes
     keep_md: yes
-    css: styles.css
+    css: "w3c-slidy.css"
   ioslides_presentation: 
     incremental: yes
     keep_md: yes

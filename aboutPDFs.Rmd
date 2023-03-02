@@ -1,6 +1,5 @@
 ---
 title: "About PDFs"
-author: "bill comstock"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   slidy_presentation: 

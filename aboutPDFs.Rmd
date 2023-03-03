@@ -44,7 +44,7 @@ The text is encoded descriptively: *This font, at this size, should be rendered 
 
 * These PDFs may include ***images of text***, but the text <mark>cannot be searched</mark>. Again, the PDF is only a sequence of images--grids of color and tone values.
 
-* These PDFs are a sequence of, typically large, page-image files, and are therefore, frequently, <mark>too large to open and navigate easily</mark>. 
+* These PDFs include a series of **big FAT image files**, and are therefore, <mark>too large to open and navigate easily</mark>. 
 
 ## Searchable, image-based PDFs
 

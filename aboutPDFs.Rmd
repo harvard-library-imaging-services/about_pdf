@@ -24,7 +24,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## True, perfect PDFs
 
-Given a choice, this is the PDF you want.<br /><br />
+Given a choice, this is the PDF you want.
+
 
 The text is encoded descriptively: This font, at this size, should be rendered in this specific location on the page, or *canvas*. The font is described as a shape and can be scaled to any size output without degradation.
 
@@ -72,7 +73,6 @@ A single hybrid page may include encoded text that replaces part of the image, a
 
 Re-key the text using at least three typists and compare the three results to identify and recover from data-entry errors.
 
-
 ## How does one create an image-based PDF with a perfect index for searching?
 
 OCR the pages and use special software to review potential errors and correct each one manually.
@@ -83,8 +83,8 @@ Assuming a volume has text, and assuming Imaging Services has OCR software capab
 
 ## *Fin*
 
-* [https://harvard-library-imaging-services.github.io/about_pdf/](https://harvard-library-imaging-services.github.io/about_pdf/)
-* [Presentaton source file](aboutPDFs.Rmd)
+- [https://harvard-library-imaging-services.github.io/about_pdf/](https://harvard-library-imaging-services.github.io/about_pdf/)
+- [Presentaton source file](aboutPDFs.Rmd)
 
 
 ```{r RUN_MANUALLY, include=FALSE, eval=FALSE}

@@ -6,6 +6,7 @@ output:
     incremental: yes
     keep_md: yes
     css: "w3c-slidy.css"
+    highlight: tango
   ioslides_presentation: 
     incremental: yes
     keep_md: yes
@@ -85,8 +86,9 @@ Assuming a volume has text, and assuming Imaging Services has OCR software capab
 
 ## *END*
 
-- Link to this presentation: [https://harvard-library-imaging-services.github.io/about_pdf/](https://harvard-library-imaging-services.github.io/about_pdf/)
-- [Presentaton source file](aboutPDFs.Rmd)
+>Link to this presentation: [https://harvard-library-imaging-services.github.io/about_pdf/](https://harvard-library-imaging-services.github.io/about_pdf/)
+>
+> [Presentation source file](aboutPDFs.Rmd)
 
 
 ```{r RUN_MANUALLY, include=FALSE, eval=FALSE}

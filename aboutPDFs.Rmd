@@ -85,7 +85,7 @@ Assuming a volume has text, and assuming Imaging Services has OCR software capab
 
 ## *END*
 
-- [https://harvard-library-imaging-services.github.io/about_pdf/](https://harvard-library-imaging-services.github.io/about_pdf/)
+- Link to this presentation: [https://harvard-library-imaging-services.github.io/about_pdf/](https://harvard-library-imaging-services.github.io/about_pdf/)
 - [Presentaton source file](aboutPDFs.Rmd)
 
 

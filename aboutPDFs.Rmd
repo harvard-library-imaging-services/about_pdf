@@ -55,6 +55,9 @@ These PDFs are also a sequence of images, but include a hidden layer of searchab
 
 * Like *image-only* PDFs, these files are often <mark>too large for users to open and navigate easily</mark>.
 
+> Example: [Cowen, Wilson Walker, et al. Melville's Marginalia. 1965.](https://id.lib.harvard.edu/alma/990033679150203941/catalog)
+
+
 * The OCR used to identify page-image <mark>text is error-prone</mark>. Pages typeset before computers, discolored pages, pages with schmutz, marginalia, or elaborate layouts--all of these characteristics degrade OCR accuracy, often dramatically.
 
 

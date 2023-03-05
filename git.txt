@@ -1,3 +1,2 @@
 cp aboutPDFs.html index.html
 git status ; git add --all ; git commit -m updates; git push origin main
-git status ; git add --all ; git commit -m updates; git push origin main

@@ -36,9 +36,11 @@ The text is encoded descriptively: *This font, at this size, should be rendered 
 
 ## "Image-only" PDFs
 
-*Image-only* PDFs are so different from *true*, *perfect* PDFs, I wish they were called something else.
+*Image-only* PDFs\* are so different from *true*, *perfect* PDFs, I wish they were called something else.
 
 <mark>An *image-only* PDF is just a sequence of raster images--grids of color and tone values.</mark>
+
+###### * [PDF/R-1 (Raster image transport and storage.) Based on PDF 1.4-1.7 (ISO 32000-1)](https://www.loc.gov/preservation/digital/formats/fdd/fdd000493.shtml)
 
 ## "Image-only" PDFs, shortcomings
 
@@ -92,6 +94,10 @@ Assuming a volume has text, and assuming Imaging Services has OCR software capab
 >Link to this presentation: [https://harvard-library-imaging-services.github.io/about_pdf/](https://harvard-library-imaging-services.github.io/about_pdf/)
 >
 > [Presentation source file](aboutPDFs.Rmd)
+
+
+
+
 
 
 ```{r RUN_MANUALLY, include=FALSE, eval=FALSE}

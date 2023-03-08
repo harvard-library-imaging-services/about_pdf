@@ -91,7 +91,7 @@ It is hard to talk about PDFs as if a PDF is a single thing,<br />where one PDF 
 
 ## Four different builds
 
-1. "True", digitally created PDF
+- "True", digitally created PDF
 - "Image-only" PDF
 - Searchable, image-based PDF
 - Hybrid (image & character description) PDF

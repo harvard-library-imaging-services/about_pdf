@@ -109,7 +109,7 @@ The font is described as a shape at a location, and therefore can be scaled to a
 
 ## "Image-only" PDFs
 
-*Image-only* PDFs\* are so different from *true*, *perfect* PDFs, I wish they were called something else.
+*Image-only* PDFs\* are so different from *true*, *perfect* PDFs,<br />I wish they were called something else.
 
 <mark>An *image-only* PDF is just a sequence of raster images--grids of color and tone values.</mark>
 

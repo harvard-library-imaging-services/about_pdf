@@ -83,7 +83,7 @@ tbl.pdf <- print(xtable(PDF),type = "html")
 
 ## About PDFs
 
-It is hard to talk about PDFs as if a "PDF" is a single thing,<br />where one PDF is reliably similar in most respects, to any other PDF file.
+It is hard to talk about PDFs as if a "PDF" is a single thing,<br />where one PDF is reliably similar, in most respects, to any other PDF file.
 
 ## 31 flavors, at least
 

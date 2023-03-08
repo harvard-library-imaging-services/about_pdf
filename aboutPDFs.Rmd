@@ -14,10 +14,78 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+
+rm(list = ls()) # clear env vars
+
+pkgs.inst <- as.data.frame(installed.packages(noCache = TRUE)) # list of installed R packages
+
+pkgs.load <- c( # default list of packages to load
+  "readr",
+  "pandoc",
+  "esquisse", # GUI ggplot 
+  "vroom", # loads data fast
+  "tidylog",
+  "glue", # join strings neatly
+  "tsibble", # time series data
+  "tidytext", # pull apart text data, count elements
+  "dplyr",
+  "stats",
+  "ggplot2",
+  "scales",
+  "RColorBrewer",
+  "janitor", # clean-up messy col names janitor::clean_names()
+  "lubridate",
+  "htmlTable",
+  "utf8",
+  "RCurl",
+  "tidyr",
+  "xtable",
+  "tidyverse",
+  "jsonlite",
+  # "Rtools",
+  "formattable"
+)
+#
+idx <- pkgs.load %in% pkgs.inst$Package == FALSE # index of packages that need to be installed
+# pkgs.load[idx]
+if(sum(idx) > 0){install.packages(pkgs.load[idx],dependencies = TRUE)} # if at least one package needs installing, run.
+lapply(pkgs.load, require, character.only = TRUE) # require packages be loaded into current env
+##
+timezone <- "US/Eastern" #Set timezone # set TZ
+if(is.na(Sys.timezone()) == TRUE){
+  Sys.setenv(TZ=timezone)
+}
+##
+os <- .Platform$OS.type
+os <- Sys.info()[[1]][1] #windows linux # identify OS
+#
 ```
 
+```{r load, include=FALSE}
 
-## Four flavors of PDF
+if(os == "Windows"){
+  PDF_PRONOM_FileFormatReport <- read_csv("P:/R/data/PDF_PRONOM_FileFormatReport.csv")
+} else {
+  PDF_PRONOM_FileFormatReport <- read_csv("~/pCloud Drive/R/data/PDF_PRONOM_FileFormatReport.csv")
+  }
+
+names(PDF_PRONOM_FileFormatReport)
+
+PDF <- PDF_PRONOM_FileFormatReport %>%
+  filter(grepl("^Adobe",`Format Name`) == FALSE) %>%
+  select("Format Name","Format Version","Extension","PUID")
+
+# tbl.pdf <- print(xtable(PDF,auto = TRUE),type = "html",hline.after = TRUE,scalebox = TRUE)
+tbl.pdf <- print(xtable(PDF),type = "html")
+
+```
+
+## 31 flavors
+
+`r tbl.pdf`
+
+## Four types
 
 * "True", digitally created PDF
 * "Image-only" PDF

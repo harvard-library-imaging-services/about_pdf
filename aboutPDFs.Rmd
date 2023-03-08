@@ -135,19 +135,19 @@ Example: [Cowen, Wilson Walker, et al. Melville's Marginalia.1965.](https://id.l
 
 * The OCR used to identify page-image <mark>text is error-prone</mark>. Pages typeset before computers, discolored pages, pages with schmutz, marginalia, or elaborate layouts--all of these characteristics degrade OCR accuracy, often dramatically.
 
-## Hybrid (image & character description) PDF
+<!-- ## Hybrid (image & character description) PDF -->
 
-Image-based PDFs with OCR-generated text can be converted to a hybrid of *true*, *perfect* and *image-based*. The software will look for OCR-generated text that the software has assigned a high confidence score, indicating it has likely identified the fonts and characters correctly, and it will throw away the page-image source and replace the image data with a described font and layout.
+<!-- Image-based PDFs with OCR-generated text can be converted to a hybrid of *true*, *perfect* and *image-based*. The software will look for OCR-generated text that the software has assigned a high confidence score, indicating it has likely identified the fonts and characters correctly, and it will throw away the page-image source and replace the image data with a described font and layout. -->
 
-A single hybrid page may include encoded text that replaces part of the image, and page-image fragments for zones where the OCR confidence scores are low.
+<!-- A single hybrid page may include encoded text that replaces part of the image, and page-image fragments for zones where the OCR confidence scores are low. -->
 
-## Hybrid PDF, shortcomings
+<!-- ## Hybrid PDF, shortcomings -->
 
-* This technique reduces the PDF size (by replacing fat image data with lean character descriptions), but it is <mark>unreliable</mark> and produces <mark>ugly</mark>, odd renderings of pages.
+<!-- * This technique reduces the PDF size (by replacing fat image data with lean character descriptions), but it is <mark>unreliable</mark> and produces <mark>ugly</mark>, odd renderings of pages. -->
 
-* Because the software discards image data that it replaces with character descriptions, you <mark>cannot recover from errors</mark> without access to the originally scanned page-images.
+<!-- * Because the software discards image data that it replaces with character descriptions, you <mark>cannot recover from errors</mark> without access to the originally scanned page-images. -->
 
-* Many fonts are licensed, so if Adobe cannot substitute a recognized character with the correct font, Adobe will substitute another that approximates the original.
+<!-- * Many fonts are licensed, so if Adobe cannot substitute a recognized character with the correct font, Adobe will substitute another that approximates the original. -->
 
 ## How does one create a *true*, *perfect* PDF from a scanned text?
 

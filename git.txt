@@ -1,2 +1,1 @@
-cp aboutPDFs.html index.html
-git status ; git add --all ; git commit -m updates; git push origin main
+cp aboutPDFs.html index.html;git status ; git add --all ; git commit -m updates; git push origin main

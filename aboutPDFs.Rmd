@@ -89,12 +89,12 @@ It is hard to talk about PDFs as if a "PDF" is a single thing,<br />where one PD
 
 `r tbl.pdf`
 
-## Four different builds
+## Three different builds
 
 1. "True", digitally created PDF
 2. "Image-only" PDF
 3. Searchable, image-based PDF
-5. Hybrid (image & character description) PDF
+<!-- 5. Hybrid (image & character description) PDF -->
 
 ## True, perfect PDFs
 
@@ -134,7 +134,6 @@ Example: [Cowen, Wilson Walker, et al. Melville's Marginalia.1965.](https://id.l
   > <small>[V.1 INTRODUCTION. BIBLIOGRAPHIES. MARGINALIA (ALGER TO BALZAC)](https://nrs.harvard.edu/URN-3:HUL.ARCH:100557006) [ **4.07GB** ]</small>
 
 * The OCR used to identify page-image <mark>text is error-prone</mark>. Pages typeset before computers, discolored pages, pages with schmutz, marginalia, or elaborate layouts--all of these characteristics degrade OCR accuracy, often dramatically.
-
 
 ## Hybrid (image & character description) PDF
 

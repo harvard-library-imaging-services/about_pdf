@@ -81,7 +81,7 @@ tbl.pdf <- print(xtable(PDF),type = "html")
 
 ```
 
-## 31 flavors
+## 31 flavors, at least
 
 `r tbl.pdf`
 
@@ -170,7 +170,7 @@ Assuming a volume has text, and assuming Imaging Services has OCR software capab
 
 ```{r RUN_MANUALLY, include=FALSE, eval=TRUE}
 
-browseURL("https://harvard-library-imaging-services.github.io/about_pdf/")
+# browseURL("https://harvard-library-imaging-services.github.io/about_pdf/")
 
 file.copy(from = "aboutPDFs.html", to = "index.html",overwrite = TRUE)
 

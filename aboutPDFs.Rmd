@@ -147,7 +147,7 @@ A single hybrid page may include encoded text that replaces part of the image, a
 
 ## How does one create a *true*, *perfect* PDF from a scanned text?
 
-Re-key the text using at least three typists and compare the three results, using discrepancies to identify errors.
+There is no reliable, automated method. To reliably turn digitized book-pages into accurate searchable text, re-keying is required. Typically, at least three typists re-key the text and software compares the three results, using discrepancies to identify errors.
 
 ## How does one create an image-based PDF with a perfect index for searching?
 

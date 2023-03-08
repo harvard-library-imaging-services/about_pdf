@@ -105,7 +105,7 @@ The font is described as a shape at a location, and therefore can be scaled to a
 
 <script src="https://gist.github.com/euhmeuh/61fd1beebf6d4fd5692431ed8ee1b892.js"></script>
 
-<mark>Because each character is explicitly recorded, searches are run against a perfect index.</mark>
+<mark>Because each character is explicitly recorded, text searches are run against a perfect index.</mark>
 
 ## "Image-only" PDFs
 

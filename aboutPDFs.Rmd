@@ -100,7 +100,7 @@ It is hard to talk about PDFs as if a "PDF" is a single thing,<br />where one PD
 
 Given a choice, <mark>this is the PDF you want</mark>.
 
-The text is encoded descriptively:<br />*This font, at this size, should be rendered in this specific location on the page*, or *canvas*.<br /><br />
+The text is encoded descriptively:<br />*This font, at this size, should be rendered in this specific location on the page*.<br /><br />
 The font is described as a shape at a location, and therefore can be scaled to any size output without degradation.
 
 <script src="https://gist.github.com/euhmeuh/61fd1beebf6d4fd5692431ed8ee1b892.js"></script>

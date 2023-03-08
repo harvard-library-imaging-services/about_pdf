@@ -83,7 +83,7 @@ tbl.pdf <- print(xtable(PDF),type = "html")
 
 ## About PDFs
 
-It is hard to talk about PDFs as if a PDF is a single thing where<br />one PDF is reliably similar in most respects, to any other PDF file.
+It is hard to talk about PDFs as if a PDF is a single thing<br />where one PDF is reliably similar in most respects, to any other PDF file.
 
 ## 31 flavors, at least
 
@@ -100,7 +100,7 @@ It is hard to talk about PDFs as if a PDF is a single thing where<br />one PDF i
 
 Given a choice, <mark>this is the PDF you want</mark>.
 
-The text is encoded descriptively: *This font, at this size, should be rendered in this specific location on the page*, or *canvas*. The font is described as a shape at a location, and therefore can be scaled to any size output without degradation.
+The text is encoded descriptively:<br />*This font, at this size, should be rendered in this specific location on the page*, or *canvas*.<br />The font is described as a shape at a location, and therefore can be scaled to any size output without degradation.
 
 <script src="https://gist.github.com/euhmeuh/61fd1beebf6d4fd5692431ed8ee1b892.js"></script>
 

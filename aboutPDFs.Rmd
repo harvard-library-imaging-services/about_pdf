@@ -89,7 +89,7 @@ It is hard to talk about PDFs as if a PDF is a single thing,<br />where one PDF 
 
 `r tbl.pdf`
 
-## Four types
+## Four different builds
 
 * "True", digitally created PDF
 * "Image-only" PDF

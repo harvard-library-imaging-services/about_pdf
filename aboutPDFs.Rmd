@@ -81,6 +81,10 @@ tbl.pdf <- print(xtable(PDF),type = "html")
 
 ```
 
+## About PDFs
+
+It is hard to talk about PDFs as if a PDF is a single kind of file, similar in most respects to other PDF files.
+
 ## 31 flavors, at least
 
 `r tbl.pdf`

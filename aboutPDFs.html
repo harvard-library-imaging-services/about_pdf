@@ -408,7 +408,7 @@ other PDF file.</p>
 <div id="flavors-at-least" class="slide section level2">
 <h1>31 flavors, at least</h1>
 <!-- html table generated in R 4.2.2 by xtable 1.8-4 package -->
-<!-- Wed Mar  8 15:05:48 2023 -->
+<!-- Wed Mar  8 15:05:56 2023 -->
 <table border="1">
 <tr>
 <th>
@@ -1012,32 +1012,13 @@ error-prone</mark>. Pages typeset before computers, discolored pages,
 pages with schmutz, marginalia, or elaborate layouts–all of these
 characteristics degrade OCR accuracy, often dramatically.</li>
 </ul>
-</div>
-<div id="hybrid-image-character-description-pdf" class="slide section level2">
-<h1>Hybrid (image &amp; character description) PDF</h1>
-<p>Image-based PDFs with OCR-generated text can be converted to a hybrid
-of <em>true</em>, <em>perfect</em> and <em>image-based</em>. The
-software will look for OCR-generated text that the software has assigned
-a high confidence score, indicating it has likely identified the fonts
-and characters correctly, and it will throw away the page-image source
-and replace the image data with a described font and layout.</p>
-<p>A single hybrid page may include encoded text that replaces part of
-the image, and page-image fragments for zones where the OCR confidence
-scores are low.</p>
-</div>
-<div id="hybrid-pdf-shortcomings" class="slide section level2">
-<h1>Hybrid PDF, shortcomings</h1>
-<ul class="incremental">
-<li><p>This technique reduces the PDF size (by replacing fat image data
-with lean character descriptions), but it is <mark>unreliable</mark> and
-produces <mark>ugly</mark>, odd renderings of pages.</p></li>
-<li><p>Because the software discards image data that it replaces with
-character descriptions, you <mark>cannot recover from errors</mark>
-without access to the originally scanned page-images.</p></li>
-<li><p>Many fonts are licensed, so if Adobe cannot substitute a
-recognized character with the correct font, Adobe will substitute
-another that approximates the original.</p></li>
-</ul>
+<!-- ## Hybrid (image & character description) PDF -->
+<!-- Image-based PDFs with OCR-generated text can be converted to a hybrid of *true*, *perfect* and *image-based*. The software will look for OCR-generated text that the software has assigned a high confidence score, indicating it has likely identified the fonts and characters correctly, and it will throw away the page-image source and replace the image data with a described font and layout. -->
+<!-- A single hybrid page may include encoded text that replaces part of the image, and page-image fragments for zones where the OCR confidence scores are low. -->
+<!-- ## Hybrid PDF, shortcomings -->
+<!-- * This technique reduces the PDF size (by replacing fat image data with lean character descriptions), but it is <mark>unreliable</mark> and produces <mark>ugly</mark>, odd renderings of pages. -->
+<!-- * Because the software discards image data that it replaces with character descriptions, you <mark>cannot recover from errors</mark> without access to the originally scanned page-images. -->
+<!-- * Many fonts are licensed, so if Adobe cannot substitute a recognized character with the correct font, Adobe will substitute another that approximates the original. -->
 </div>
 <div id="how-does-one-create-a-true-perfect-pdf-from-a-scanned-text" class="slide section level2">
 <h1>How does one create a <em>true</em>, <em>perfect</em> PDF from a

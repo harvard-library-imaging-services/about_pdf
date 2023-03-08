@@ -118,7 +118,7 @@ The text is encoded descriptively: *This font, at this size, should be rendered 
 
 ## Searchable, image-based PDFs
 
-These PDFs are also a sequence of images, but include a hidden layer of searchable text that is, almost always, imperfect, having been created by OCR software that worked to identify characters and words by analyzing the page-images.
+These PDFs are also a sequence of images, but include a hidden layer of searchable text that is always imperfect, having been created by OCR software that worked to identify characters and words by analyzing the page-images.
 
 ## Searchable, image-based PDFs, shortcomings
 
@@ -168,7 +168,7 @@ Assuming a volume has text, and assuming Imaging Services has OCR software capab
 
 
 
-```{r RUN_MANUALLY, include=FALSE, eval=FALSE}
+```{r RUN_MANUALLY, include=FALSE, eval=TRUE}
 
 browseURL("https://harvard-library-imaging-services.github.io/about_pdf/")
 

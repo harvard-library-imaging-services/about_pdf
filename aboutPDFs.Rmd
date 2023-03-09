@@ -160,7 +160,7 @@ OCR the pages, and use special software to review potential errors and correct e
 
 ## What kind of PDFs does Imaging Services make?
 
-Assuming a volume has text, and assuming Imaging Services has<br />OCR software capable of processing the languages, and character set,<br />==Imaging Services creates image-based PDFs with imperfect indexes for searching==.
+Assuming a volume has text, and assuming Imaging Services has<br />OCR software capable of processing the languages, and character set,<br /><mark>Imaging Services creates image-based PDFs with imperfect indexes for searching</mark>.
 
 ## *END*
 

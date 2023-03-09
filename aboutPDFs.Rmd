@@ -151,7 +151,8 @@ Example: [Cowen, Wilson Walker, et al. Melville's Marginalia.1965.](https://id.l
 
 ## How does one create a *true*, *perfect* PDF from a scanned text?
 
-There is no reliable, automated method. To reliably turn digitized book-pages into accurate searchable text, re-keying is required. Typically, at least three typists re-key the text and software compares the three results, using discrepancies to identify errors.
+There is no reliable, automated method.<br />
+To reliably turn digitized book-pages into accurate searchable text, re-keying is required. Typically, at least three typists re-key the text and software compares the three results, using discrepancies to identify errors.
 
 ## How does one create an image-based PDF with a perfect index for searching?
 
@@ -159,7 +160,7 @@ OCR the pages, and use special software to review potential errors and correct e
 
 ## What kind of PDFs does Imaging Services make?
 
-Assuming a volume has text, and assuming Imaging Services has OCR software capable of processing the languages, and character set, Imaging Services creates image-based PDFs with imperfect indexes for searching.
+Assuming a volume has text, and assuming Imaging Services has OCR software capable of processing the languages, and character set,<br />Imaging Services creates image-based PDFs with imperfect indexes for searching.
 
 ## *END*
 

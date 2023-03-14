@@ -152,11 +152,13 @@ Example: [Cowen, Wilson Walker, et al. Melville's Marginalia.1965.](https://id.l
 ## How does one create a *true*, *perfect* PDF from a scanned text?
 
 There is no reliable, automated method.<br /><br />
-To reliably turn digitized book-pages into accurate searchable text, re-keying is required. Typically, at least three typists re-key the text and software compares the three results, using discrepancies to identify errors.
+* To reliably turn digitized book-pages into accurate searchable text, re-keying is required. Typically, at least three typists re-key the text and software compares the three results, using discrepancies to identify errors.
 
-## How does one create an image-based PDF with a perfect index for searching?
+* Ro, OCR the pages, and use special software to review potential errors and correct each one manually.
 
-OCR the pages, and use special software to review potential errors and correct each one manually.
+<!-- ## How does one create an image-based PDF with a perfect index for searching? -->
+
+<!-- OCR the pages, and use special software to review potential errors and correct each one manually. -->
 
 ## What kind of PDFs does Imaging Services make?
 
@@ -174,7 +176,7 @@ Assuming a volume has text, and assuming Imaging Services has<br />OCR software 
 * ACT isn't planning to correct all texts
 	* High quality results are typically sufficient for most students..
 * Graduate student needs have overwhelmed ACT
-	* One student this year needed 600 books scanned, hundred of thousands of pages
+	* One student this year needed 600 books scanned, hundreds of thousands of pages
 * Grad students with disabilities will now be provided with a 20 hour per week research assistant that ACT will train to support the student.
 
 ## *END*

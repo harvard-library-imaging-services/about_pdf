@@ -174,11 +174,11 @@ Assuming a volume has text, and assuming Imaging Services has<br />OCR software 
 	* Students prefer MS WORD because they change fonts and  leading.
 	* Text to braille software takes MS WORD as input, not PDF.
 * The University is providing ATC offices with licenses to SAAS, [SensusAccess](https://www.sensusaccess.com/)
-* ACT isn't planning to correct all texts
+* ATC isn't planning to correct all texts
 	* High quality results are typically sufficient for most students..
-* Graduate student needs have overwhelmed ACT
+* Graduate student needs have overwhelmed ATC
 	* One student this year needed 600 books scanned, hundreds of thousands of pages
-* Grad students with disabilities will now be provided with a 20 hour per week research assistant that ACT will train to support the student.
+* Grad students with disabilities will now be provided with a 20 hour per week research assistant that ATC will train to support the student.
 
 ## *END*
 

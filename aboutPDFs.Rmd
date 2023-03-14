@@ -162,6 +162,21 @@ OCR the pages, and use special software to review potential errors and correct e
 
 Assuming a volume has text, and assuming Imaging Services has<br />OCR software capable of processing the languages, and character set,<br /><mark>Imaging Services creates image-based PDFs with imperfect indexes for searching</mark>.
 
+## Notes from the Assistive Technology Center
+
+* ATC staff take the TIFF images the library provides and processes them to produce searchable text.
+* ABBYY is used to correct errors
+* Specialized software and outsourced services are used in special cases (e.g., OCR or re-keying Arabic texts)
+* MS Word or PDF files are delivered to students, with MS Word being the default.
+	* Students prefer MS WORD because they change fonts and  leading.
+	* Text to braille software takes MS WORD as input, not PDF.
+* The University is providing ATC offices with licenses to SAAS, [SensusAccess](https://www.sensusaccess.com/)
+* ACT isn't planning to correct all texts
+	* High quality results are typically sufficient for most students..
+* Graduate student needs have overwhelmed ACT
+	* One student this year needed 600 books scanned, hundred of thousands of pages
+* Grad students with disabilities will now be provided with a 20 hour per week research assistant that ACT will train to support the student.
+
 ## *END*
 
 >Link to this presentation: [https://harvard-library-imaging-services.github.io/about_pdf/](https://harvard-library-imaging-services.github.io/about_pdf/)

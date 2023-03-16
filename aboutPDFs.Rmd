@@ -6,7 +6,7 @@ output:
     incremental: yes
     keep_md: yes
     css: "w3c-slidy.css"
-    highlight: tango
+
   ioslides_presentation: 
     incremental: yes
     keep_md: yes

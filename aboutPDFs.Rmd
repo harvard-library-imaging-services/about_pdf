@@ -2,14 +2,13 @@
 title: "About PDFs"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
-  slidy_presentation: 
+  ioslides_presentation:
+    incremental: yes
+    keep_md: yes
+  slidy_presentation:
     incremental: yes
     keep_md: yes
     css: "w3c-slidy.css"
-
-  ioslides_presentation: 
-    incremental: yes
-    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -81,7 +80,34 @@ tbl.pdf <- print(xtable(PDF),type = "html")
 
 ```
 
-## About PDFs
+## Our plea for a new *best practice*
+
+When digitizing library materials, can we find a way to <mark>stop making PDFs for preservation and access</mark>?
+
+## Digitized Harvard theses & dissertations
+
+When digitizing paper theses, why are we making PDFs?
+
+* Because we cannot make the digitized copies accessible online. (<mark>Why?</mark>)
+* Because we extend access on-demand by secretly making the PDF link live, briefly, so a specifc patron can download a copy.
+* Because the *P* is for portable. Acrobat is ubiquitous and provides a portable UI for offline use.
+
+## What's the problem?
+
+* Too fat.
+* Too vulnerable to Acrobat's destructive image processing.
+* Too hard to migrate to a new format.
+* Too hard to decompose into page-images for computation.
+
+## What is the alternative
+
+* Make the same kind of page-turned digital resources we make for other digitized collections.
+* Generate PDFs on-the-fly for patrons, on-demand.
+
+## I don't understand, I love PDFs.
+
+
+## A PDF isn't what you think it is because it isn't one thing
 
 It is hard to talk about PDFs as if a "PDF" is a single thing,<br />where one PDF is reliably similar, in most respects, to any other PDF file.
 
@@ -165,20 +191,20 @@ There is no reliable, automated method.<br /><br />
 
 Assuming a volume has text, and assuming Imaging Services has<br />OCR software capable of processing the languages, and character set,<br /><mark>Imaging Services creates image-based PDFs with imperfect indexes for searching</mark>.
 
-## Notes from the Assistive Technology Center
+<!-- ## Notes from the Assistive Technology Center -->
 
-* ATC staff take the TIFF images the library provides and processes them to produce searchable text.
-* ABBYY is used to correct errors
-* Specialized software and outsourced services are used in special cases (e.g., OCR or re-keying Arabic texts)
-* MS Word or PDF files are delivered to students, with MS Word being the default.
-	* Students prefer MS WORD because they change fonts and  leading.
-	* Text to braille software takes MS WORD as input, not PDF.
-* The University is providing ATC offices with licenses to SAAS, [SensusAccess](https://www.sensusaccess.com/)
-* ATC isn't planning to correct all texts
-	* High quality results are typically sufficient for most students..
-* Graduate student needs have overwhelmed ATC
-	* One student this year needed 600 books scanned, hundreds of thousands of pages
-* Grad students with disabilities will now be provided with a 20 hour per week research assistant that ATC will train to support the student.
+<!-- * ATC staff take the TIFF images the library provides and processes them to produce searchable text. -->
+<!-- * ABBYY is used to correct errors -->
+<!-- * Specialized software and outsourced services are used in special cases (e.g., OCR or re-keying Arabic texts) -->
+<!-- * MS Word or PDF files are delivered to students, with MS Word being the default. -->
+<!-- 	* Students prefer MS WORD because they change fonts and  leading. -->
+<!-- 	* Text to braille software takes MS WORD as input, not PDF. -->
+<!-- * The University is providing ATC offices with licenses to SAAS, [SensusAccess](https://www.sensusaccess.com/) -->
+<!-- * ATC isn't planning to correct all texts -->
+<!-- 	* High quality results are typically sufficient for most students.. -->
+<!-- * Graduate student needs have overwhelmed ATC -->
+<!-- 	* One student this year needed 600 books scanned, hundreds of thousands of pages -->
+<!-- * Grad students with disabilities will now be provided with a 20 hour per week research assistant that ATC will train to support the student. -->
 
 ## *END*
 
@@ -191,7 +217,7 @@ Assuming a volume has text, and assuming Imaging Services has<br />OCR software 
 
 
 
-```{r RUN_MANUALLY, include=FALSE, eval=TRUE}
+```{r RUN_MANUALLY, include=FALSE, eval=FALSE}
 
 # browseURL("https://harvard-library-imaging-services.github.io/about_pdf/")
 

@@ -65,7 +65,10 @@ os <- Sys.info()[[1]][1] #windows linux # identify OS
 
 if(os == "Windows"){
   PDF_PRONOM_FileFormatReport <- read_csv("P:/R/data/PDF_PRONOM_FileFormatReport.csv")
-} else {
+} else if(os == "Linux" &
+          Sys.info()[[4]][1] == "penguin") {
+  PDF_PRONOM_FileFormatReport <- read_csv("/home/comstock/pCloudDrive/R/data/PDF_PRONOM_FileFormatReport.csv")
+  } else if(os == "unix"){
   PDF_PRONOM_FileFormatReport <- read_csv("~/pCloud Drive/R/data/PDF_PRONOM_FileFormatReport.csv")
   }
 
@@ -73,10 +76,10 @@ names(PDF_PRONOM_FileFormatReport)
 
 PDF <- PDF_PRONOM_FileFormatReport %>%
   filter(grepl("^Adobe",`Format Name`) == FALSE) %>%
-  select("Format Name","Format Version","Extension","PUID")
+  select("Format Name","Format Version")#,"PUID")
 
 # tbl.pdf <- print(xtable(PDF,auto = TRUE),type = "html",hline.after = TRUE,scalebox = TRUE)
-tbl.pdf <- print(xtable(PDF),type = "html")
+tbl.pdf <- print(xtable(PDF),type = "html",include.rownames = FALSE)
 
 ```
 
@@ -104,7 +107,7 @@ When digitizing paper theses, why are we making PDFs?
 * Make the same kind of page-turned digital resources we make for other digitized collections.
 * Generate PDFs on-the-fly for patrons, on-demand.
 
-## I don't understand, I love PDFs.
+## *"I don't understand, I love PDFs."*
 
 
 ## A PDF isn't what you think it is because it isn't one thing

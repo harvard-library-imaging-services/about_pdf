@@ -2,13 +2,13 @@
 title: "About PDFs"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
-  ioslides_presentation:
-    incremental: yes
-    keep_md: yes
   slidy_presentation:
     incremental: yes
     keep_md: yes
     css: "w3c-slidy.css"
+  ioslides_presentation:
+    incremental: yes
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -85,29 +85,34 @@ tbl.pdf <- print(xtable(PDF),type = "html",include.rownames = FALSE)
 
 ## Our plea for a new *best practice*
 
-When digitizing library materials, can we find a way to <mark>stop making PDFs for preservation and access</mark>?
+When digitizing library materials, <mark>we should avoid making PDFs for preservation and access</mark>.
 
 ## Digitized Harvard theses & dissertations
 
-When digitizing paper theses, why are we making PDFs?
+When digitizing paper theses...<br /><br /><mark>Why are we making PDFs instead of the page-turned objects we typically deliver via the Page Delivery Service (PDS)?</mark>
 
-* Because we cannot make the digitized copies accessible online. (<mark>Why?</mark>)
-* Because we extend access on-demand by secretly making the PDF link live, briefly, so a specifc patron can download a copy.
-* Because the *P* is for portable. Acrobat is ubiquitous and provides a portable UI for offline use.
+- Because, due to rights restrictions, we cannot make the digitized copies accessible online, and therefore we must deliver to patrons a format they can navigate on their own machines.
 
-## What's the problem?
+  * The PDF Acrobat Reader is a patron's portable page-turning application.
 
-* Too fat.
+* How do we deliver PDFs to patrons?
+
+* > By secretly making the PDF link live, briefly, so the patron can download a copy.
+
+
+## So, what's the problem? Why shouldn't we make PDF's from scanned theses.
+
+* Too fat. The PDFs are huge--so huge, in many cases, one can imagine they'll be difficult to open and navigate for many patrons.
 * Too vulnerable to Acrobat's destructive image processing.
 * Too hard to migrate to a new format.
-* Too hard to decompose into page-images for computation.
+* Too hard to decompose into page-images for computational analysis.
 
-## What is the alternative
+## What's the alternative?
 
 * Make the same kind of page-turned digital resources we make for other digitized collections.
 * Generate PDFs on-the-fly for patrons, on-demand.
 
-## *"I don't understand, I love PDFs."*
+## *"I don't understand, I use PDFs all the time. What's your problem?"*
 
 
 ## A PDF isn't what you think it is because it isn't one thing

@@ -2,10 +2,12 @@
 title: "About PDFs"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
-  slidy_presentation:
+  slidy_presentation: 
     incremental: yes
     keep_md: yes
     css: "w3c-slidy.css"
+    font_adjustment: +4
+    footer: "Harvard Library, Imaging Services"
   ioslides_presentation:
     incremental: yes
     keep_md: yes
@@ -218,7 +220,7 @@ Assuming a volume has text, and assuming Imaging Services has<br />OCR software 
 
 >Link to this presentation: [https://harvard-library-imaging-services.github.io/about_pdf/](https://harvard-library-imaging-services.github.io/about_pdf/)
 >
-> [Presentation source file](aboutPDFs.Rmd)
+<!-- > [Presentation source file](aboutPDFs.Rmd) -->
 
 
 

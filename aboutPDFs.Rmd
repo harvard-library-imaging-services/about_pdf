@@ -149,11 +149,11 @@ The font is described as a shape at a location, and therefore can be scaled to a
 
 ## "Image-only" PDFs
 
-*Image-only* PDFs\* are so different from *true*, *perfect* PDFs,<br />I wish they were called something else.
+*Image-only* PDFs[^1] are so different from *true*, *perfect* PDFs,<br />I wish they were called something else.
 
 <mark>An *image-only* PDF is just a sequence of raster images--grids of color and tone values.</mark>
 
-###### * [PDF/R-1 (Raster image transport and storage.) Based on PDF 1.4-1.7 (ISO 32000-1)](https://www.loc.gov/preservation/digital/formats/fdd/fdd000493.shtml)
+[^1]:[PDF/R-1 (Raster image transport and storage.) Based on PDF 1.4-1.7 (ISO 32000-1)](https://www.loc.gov/preservation/digital/formats/fdd/fdd000493.shtml)
 
 ## "Image-only" PDFs, shortcomings
 

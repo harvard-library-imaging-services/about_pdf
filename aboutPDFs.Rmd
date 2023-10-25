@@ -7,7 +7,7 @@ output:
     keep_md: yes
     css: "w3c-slidy.css"
     font_adjustment: +4
-    footer: "Harvard Library, Imaging Services"
+    footer: "https://harvard-library-imaging-services.github.io/about_pdf/"
   ioslides_presentation:
     incremental: yes
     keep_md: yes
@@ -44,6 +44,7 @@ pkgs.load <- c( # default list of packages to load
   "xtable",
   "tidyverse",
   "jsonlite",
+  "xaringan",
   # "Rtools",
   "formattable"
 )
@@ -100,6 +101,7 @@ When digitizing paper theses...<br /><br /><mark>Why are we making PDFs instead 
 * How do we deliver PDFs to patrons?
 
 * > By secretly making the PDF link live, briefly, so the patron can download a copy.
+* > By downloading all the image files, and creating a PDF for the patron.
 
 
 ## So, what's the problem? Why shouldn't we make PDF's from scanned theses.
@@ -216,26 +218,33 @@ Assuming a volume has text, and assuming Imaging Services has<br />OCR software 
 <!-- 	* One student this year needed 600 books scanned, hundreds of thousands of pages -->
 <!-- * Grad students with disabilities will now be provided with a 20 hour per week research assistant that ATC will train to support the student. -->
 
-## *END*
+## *~~ FIN ~~*
 
->Link to this presentation: [https://harvard-library-imaging-services.github.io/about_pdf/](https://harvard-library-imaging-services.github.io/about_pdf/)
+### Related links
+
+#### &bull; [Test instance of new *Mirador* page-turner](https://viewer.lib.harvard.edu/)
+
+> &bull; Check out the [updated *Download PDF* feature](https://viewer.lib.harvard.edu/example/mps/urn-3:KSG.LIBR:40505153?manifestVersion=3).
 >
-<!-- > [Presentation source file](aboutPDFs.Rmd) -->
+> &bull; [Documentation](https://ask.library.harvard.edu/faq/392399)
 
 
 
 
 
 
-```{r RUN_MANUALLY, include=FALSE, eval=FALSE}
+
+
+
+```{r RUN_MANUALLY, include=FALSE, eval=TRUE}
 
 # browseURL("https://harvard-library-imaging-services.github.io/about_pdf/")
 
 file.copy(from = "aboutPDFs.html", to = "index.html",overwrite = TRUE)
 
-system("git status")
-system("git add --all")
-system("git commit -m \"updates\"")
-system("git push origin main")
+# system("git status")
+# system("git add --all")
+# system("git commit -m \"updates\"")
+# system("git push origin main")
 
 ```
